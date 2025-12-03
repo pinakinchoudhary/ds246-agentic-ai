@@ -1,0 +1,30 @@
+# Core ML/DL libraries
+torch>=2.0.0
+numpy>=1.24.0,<2.0  # faiss-gpu requires numpy<2.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Embedding and search
+sentence-transformers>=2.2.0
+faiss-gpu>=1.7.2  # Use faiss-cpu if no GPU
+transformers>=4.30.0
+
+# Ranking
+# lightgbm>=4.0.0  # REMOVED - using hardcoded scoring instead
+
+# Text search and matching
+rank-bm25>=0.2.2
+rapidfuzz>=3.0.0
+
+# Data loading
+datasets>=2.14.0
+pyarrow>=12.0.0
+
+# Web interface
+streamlit>=1.28.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Utilities
+joblib>=1.3.0
